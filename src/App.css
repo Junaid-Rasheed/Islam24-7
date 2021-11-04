@@ -1,38 +1,51 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap");
+
+body {
+  background-color: #f5eaf3;
+  /* background-image: url("/public/bkground.jpg");
+  background-size: cover; */
+}
+
+.navbar {
+  font-family: "Noto Sans Mono", monospace;
+  background-color: #3b0f50;
+  color: #eea4b9;
+}
+
+.lgnbtn {
+  background-color: #eea4b9;
+  color: #3b0f50;
+}
+.list-heading {
+  color: #ee8faa;
+}
+
+.services {
+  font-family: "Noto Sans Mono", monospace;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MIcontainer {
+  position: relative;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.example2 {
+  /* border: 1px solid; */
+  padding: 2px;
+  box-shadow: 2px 2px #888888;
 }
