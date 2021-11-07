@@ -19,7 +19,7 @@ function SurahDetail({ surahId }) {
 
   return (
     <div>
-      <div className="text-2xl text-center">
+      <div className="text-2xl text-center leading-relaxed">
         {surahDetails &&
           surahDetails.data &&
           surahDetails.data.ayahs &&

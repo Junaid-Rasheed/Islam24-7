@@ -65,7 +65,7 @@ function Nav() {
             </div>
           </a>
           <a
-            href="#"
+            href="/Hadees"
             className="block md:inline-block font-bold    hover:text-white px-2 py-3 border-b-2  md:border-none"
           >
             <div className="dropdown inline-block relative">

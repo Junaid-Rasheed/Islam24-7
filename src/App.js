@@ -6,7 +6,7 @@ import Services from "./page/Services";
 import Quran from "./page/Quran/Quran";
 import Tafseer from "./page/Quran/Tafseer";
 import Feedback from "./page/Feedback";
-
+import Hadees from "./page/Hadees";
 // import Footer from "./components/Footer";
 function App() {
   return (
@@ -31,6 +31,9 @@ function App() {
           </Route>
           <Route path="/Feedback" exact>
             <Feedback />
+          </Route>
+          <Route path="/Hadees" exact>
+            <Hadees />
           </Route>
         </Switch>
         {/* <Footer /> */}
